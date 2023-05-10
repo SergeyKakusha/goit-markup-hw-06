@@ -1000,10 +1000,7 @@ transition: border var(--transition), color var(--transition), box-shadow var(--
     margin-right: 8px;
     
 }
-/* .o-hide {
-    opacity: 0;
-    transition: all ease 0.8s;
-  } */
+
 .o-hide:hover {
     opacity: 1;
     
