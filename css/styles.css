@@ -677,6 +677,11 @@ transition: background-color var(--transition);
     color: var(--fond-color);
     transition: background-color var(--transition);
 }
+.footer-mailto-btn:hover,
+.footer-mailto-btn:focus {
+background: var(--btn-color);
+color: var(--fond-color);
+}
 .footer-mailto-svg {
     position: absolute;
     display: block;
@@ -1025,7 +1030,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     cursor: pointer;
     background-color: var(--logo-btn-color);
     color: var(--fond-color);
-    transition: background-color var(--transition);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
   
