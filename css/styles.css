@@ -1039,5 +1039,9 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     align-items: center;
     font-size: 12px;
     margin-bottom: 24px;
-    
-  }
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
